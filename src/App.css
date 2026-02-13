@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #8080ff;
+  min-height: 800px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.app-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.main-card {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.main-card .ant-card-body {
+  padding: 10px;
+}
+
+.folder-input-area {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px dashed #d9d9d9;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  background: #fafafa;
+}
+
+.folder-input-area.drag-over {
+  border-color: #667eea;
+  background: #f0f3ff;
+}
+
+.folder-input {
+  flex: 1;
+  font-size: 12px;
+}
+
+.form-item {
+  margin-bottom: 8px;
+}
+
+.form-item label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #333;
+  font-size: 12px;
+}
+
+.preview-example {
+  margin-top: 10px;
+  padding: 8px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  border-left: 2px solid #667eea;
+  font-size: 12px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.preview-area {
+  margin-top: 10px;
+}
+
+.ant-table-wrapper {
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 11px;
+}
+
+.ant-table-thead > tr > th {
+  background: #667eea !important;
+  color: white !important;
+  font-weight: 600;
+  padding: 6px 8px !important;
+  font-size: 11px;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 6px 8px !important;
+  font-size: 11px;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: #f0f3ff !important;
+}
+
+.ant-btn {
+  font-size: 12px;
+  padding: 2px 8px;
+  height: auto;
+  line-height: 1.4;
+}
+
+.ant-btn-lg {
+  font-size: 12px;
+  padding: 4px 12px;
+  height: auto;
+  line-height: 1.4;
+}
+
+.ant-btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.ant-btn-primary:hover {
+  background: linear-gradient(135deg, #5a6fd6 0%, #6a4190 100%);
+}
+
+.ant-divider {
+  margin: 12px 0;
+}
+
+.ant-input {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.ant-input-lg {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.ant-select {
+  font-size: 12px;
+}
+
+.ant-select-selector {
+  padding: 2px 8px !important;
+  min-height: auto !important;
+}
+
+.ant-select-selection-item {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.ant-checkbox-wrapper {
+  font-size: 12px;
+}
+
+.ant-typography {
+  font-size: 12px;
+}
+
+h2.ant-typography {
+  font-size: 16px;
+  margin-bottom: 8px !important;
+}
+
+h4.ant-typography {
+  font-size: 13px;
+  margin-bottom: 4px !important;
+}
+
+.ant-row {
+  margin-left: -4px !important;
+  margin-right: -4px !important;
+}
+
+.ant-col {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+.ant-tag {
+  font-size: 10px;
+  padding: 0 4px;
+  line-height: 1.4;
+}
+
+.ant-pagination {
+  font-size: 11px;
+}
+
+.ant-pagination-item {
+  min-width: 24px;
+  height: 24px;
+  line-height: 22px;
+}
+
+.ant-pagination-prev, .ant-pagination-next {
+  min-width: 24px;
+  height: 24px;
+  line-height: 22px;
+}
